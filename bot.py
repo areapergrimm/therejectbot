@@ -9,8 +9,8 @@ description = "The Reject Bot."
 PREFIX = "."
 CHANNELNAME = "spam"
 bot = commands.Bot(command_prefix=PREFIX, description=description)
-TOKEN = open('token.txt', 'r').read()
-PERMLIST = open('permlist.txt', 'r')
+TOKEN = open('TOKEN.txt', 'r').read()
+PERMLIST = open('PERMLIST.txt', 'r')
 
 gameBoard = None
 lobbyDict = {}
